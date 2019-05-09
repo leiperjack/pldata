@@ -1,0 +1,17 @@
+<div class="w3-container w3-padding w3-quarter ">
+<img src="https://www.arsenal.com/sites/default/files/styles/mobile_16x9/public/images/emirates_stadium03.jpg?itok=3hl3qlKT" alt="Alps" img style="height: 100%; width: 100%; object-fit: contain">
+
+  <div class="w3-card-4 w3-red" style="width:auto; top:20px" >
+  
+  <div class="w3-container w3-center">
+    <h1>Arsenal</h1>
+    <img src="http://pluspng.com/img-png/arsenal-png-file-arsenal-fc-svg-653.png" alt="Avatar" style="height:150px">
+    <h5>John Doe</h5>
+
+    <div class="w3-section">
+      <button class="w3-button w3-green">Accept</button>
+      <button class="w3-button w3-red">Decline</button>
+    </div>
+</div>
+</div>
+</div>
