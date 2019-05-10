@@ -1,6 +1,6 @@
 <?php
 
-$username = 'jack2';
+$username = 'jack';
 $password = 'root';
 $host = 'db';
 $dbname = 'football';
