@@ -36,14 +36,14 @@ CREATE TABLE `club` (
   `manager` varchar(30) NOT NULL,
   `stadium` varchar(25) NOT NULL,
   `badgeurl` text CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
-  `club_id` int(10) UNSIGNED NOT NULL
+  `clubID` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `club`
 --
 
-INSERT INTO `club` (`clubName`, `nickname`, `city`, `founded`, `manager`, `stadium`, `badgeurl`, `club_id`) VALUES
+INSERT INTO `club` (`clubName`, `nickname`, `city`, `founded`, `manager`, `stadium`, `badgeurl`, `clubID`) VALUES
 ('AFC Bournemouth', 'The Cherries', 'Bournemouth', 1899, 'Eddie Howe', 'Vitality Stadium', 'https://platform-static-files.s3.amazonaws.com/premierleague/badges/t91.svg', 1),
 ('Arsenal', 'The Gunners', 'London', 1886, 'Unai Emery', 'Emirates Stadium', 'https://platform-static-files.s3.amazonaws.com/premierleague/badges/t3.svg', 2),
 ('Brighton and Hove Albion', 'The Seagulls', 'Brighton', 1901, 'Chris Hughton ', 'AMEX Stadium', 'https://platform-static-files.s3.amazonaws.com/premierleague/badges/t36.svg', 3),
